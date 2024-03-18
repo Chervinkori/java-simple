@@ -1,4 +1,7 @@
 package panov.DZ9;
+
+import javax.xml.namespace.QName;
+
 /**
  * ДЗ:
  * 1. Создайте класс Phone, который содержит переменные number, model и weight.
@@ -24,4 +27,17 @@ public class Phone {
     int weight;
     String model;
 
+    public void receiveCall() {
+        System.out.println("Звонит "+"Але-ша");
+    }
+
+    public void getNumber() {
+        System.out.println(number);
+    }
+
+    public void sendMessage(){
+
+    }
+
 }
+
