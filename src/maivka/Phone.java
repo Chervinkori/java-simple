@@ -13,9 +13,29 @@ public class Phone {
     }
 
     public void info() {
-        System.out.println("Numbers: " + numbers);
-        System.out.println("Model: " + model);
-        System.out.println("Weight: " + weight);
+        System.out.println("Номер: " + numbers);
+        System.out.println("Модель: " + model);
+        System.out.println("Вес: " + weight);
     }
+
+    public void receiveCall(String callerName) {
+        System.out.println("Звонит: " + callerName);
+    }
+
+    public int getNumber() {
+        return numbers;
+    }
+
+    public void receiveCall(String callerName, int callerNumber) {
+        System.out.println("Звонит: " + callerName + ", с номера: " + callerNumber);
+    }
+
+    public void sendMessage(int... phoneNumbers){
+        System.out.println("Отправляю сообщения на номера: ");
+        for (int num : phoneNumbers){
+            System.out.println(num);
+        }
+    }
+
 
 }
