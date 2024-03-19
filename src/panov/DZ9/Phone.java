@@ -1,6 +1,7 @@
 package panov.DZ9;
 
 import javax.xml.namespace.QName;
+import java.util.Arrays;
 
 /**
  * ДЗ:
@@ -27,17 +28,23 @@ public class Phone {
     int weight;
     String model;
 
-    public void receiveCall() {
-        System.out.println("Звонит "+"Але-ша");
+    //Task 4
+    public void receiveCall(String model) {
+        System.out.println("Звонит " + model);
     }
 
-    public void getNumber() {
+    public void getNumber(int number) {
         System.out.println(number);
     }
 
-    public void sendMessage(){
-
+    //Task 5
+    public void receiveCall(String model, int number) {
+        System.out.println(model + " " + number);
     }
 
+    //Task 6
+    public void sendMessage(int... number) {
+        System.out.println(Arrays.toString(number));
+    }
 }
 
