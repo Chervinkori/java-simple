@@ -4,19 +4,19 @@ import java.time.LocalDate;
 
 public class House {
     public int floors;
-    public int yaer;
+    public int year;
     public int name;
 
-    public void setValues(int floors, int yaer, int name) {
+    public void setValues(int floors, int year, int name) {
         this.floors = floors;
-        this.yaer = yaer;
+        this.year = year;
         this.name = name;
 
     }
 
     public void displayValues() {
         System.out.println("Серия дома: " + name);
-        System.out.println("Год постройки: " + yaer);
+        System.out.println("Год постройки: " + year);
         System.out.println("Кол-во этажей: " + floors);
     }
 
@@ -24,7 +24,7 @@ public class House {
 
         int currYaer = LocalDate.now().getYear();
         int yaers = 0;
-        int buildYaer = yaer;
+        int buildYaer = year;
 
         while (buildYaer < currYaer) {
             buildYaer++;
