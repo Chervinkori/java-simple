@@ -25,7 +25,7 @@ public class Dz8 {
     public static void main(String[] args) {
         task1();
         task2();
-//        task3();
+        task3();
 //        task4();
     }
 
@@ -81,17 +81,17 @@ public class Dz8 {
      * Пример: [1, 2, 3, 0, 5, 1, 2, 0, 2]
      * Результат: [0, 0, 1, 2, 3, 5, 1, 2, 2]
      */
-//    public static void task3() {
-//        int[] array = new int[]{1, 2, 3, 0, 5, 1, 2, 0, 2};
-//        int ferst = 0;
-//        for (int i = 0; i < array.length; i++) {
-//            if (array[i] == 0) {
-//                array[ferst++] = array[i];
-//            }
-//        }
-//        System.out.println(Arrays.toString(array));
-//    }
+    public static void task3() {
+        int[] array = new int[]{1, 2, 3, 0, 5, 1, 2, 0, 2};
+        int count = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] != 0) {
+                array[count++] = array[i];
+            }
+        }
+        for (int i = count; i < array.length; i++) {
+            array[i] = 0;
+        }
+        System.out.println(Arrays.toString(array));
+    }
 }
-
-
-
