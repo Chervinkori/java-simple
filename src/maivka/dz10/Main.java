@@ -1,13 +1,10 @@
-package org.example;
-
-import maivka.House;
-import maivka.Phone;
+package maivka.dz10;
 
 public class Main {
     public static void main(String[] args) {
 //        House();
-        Phone();
-
+//        Phone();
+        Reader();
 
     }
 
@@ -43,7 +40,10 @@ public class Main {
         System.out.println();
         phone1.sendMessage(phone3.numbers, phone1.numbers, phone2.numbers);
     }
+public static void Reader(){
 
+
+}
 
 }
 

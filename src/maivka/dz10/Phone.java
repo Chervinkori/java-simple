@@ -1,4 +1,4 @@
-package maivka;
+package maivka.dz10;
 
 public class Phone {
 

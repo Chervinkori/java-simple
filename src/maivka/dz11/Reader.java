@@ -1,7 +1,8 @@
 package maivka.dz11;
 
 import java.util.Date;
-class Reader  {
+
+class Reader {
     public String fullName;
     public int readerId;
     public String faculty;
