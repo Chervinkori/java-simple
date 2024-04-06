@@ -18,6 +18,6 @@ public class Bear extends Animal {
 
     @Override
     public String getDescription() {
-        return "battle Encounter Assault Regiment, (англ.~ Боевой Штурмовой Полк) - является частной военной компанией (ЧВК) ";
+        return "самая сильная нация ";
     }
 }
