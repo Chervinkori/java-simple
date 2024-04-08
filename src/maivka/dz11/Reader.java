@@ -3,11 +3,11 @@ package maivka.dz11;
 import java.util.Date;
 
 class Reader {
-    public String fullName;
-    public int readerId;
-    public String faculty;
-    public Date dateOfBirth;
-    public String phoneNumber;
+    private String fullName;
+    private int readerId;
+    private String faculty;
+    private Date dateOfBirth;
+    private String phoneNumber;
 
     public Reader(String fullName, int readerId, String faculty, Date dateOfBirth, String phoneNumber) {
         this.fullName = fullName;

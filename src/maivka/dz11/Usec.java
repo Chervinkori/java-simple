@@ -1,9 +1,10 @@
 package maivka.dz11;
 
 public class Usec extends Animal {
-    public Usec(String name){
+    public Usec(String name) {
         super(name);
     }
+
     @Override
     public void makeNoise() {
         System.out.println(name + " чё то там пендосит...");
